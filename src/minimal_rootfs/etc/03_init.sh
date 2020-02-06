@@ -36,18 +36,18 @@
 # exec /sbin/init
 
 # Print first message on screen.
-#cat /etc/msg/03_init_01.txt
+cat /etc/msg/03_init_01.txt
 
 # Wait 5 second or until any keybord key is pressed.
-#read -t 5 -n1 -s key
+read -t 2 -n1 -s key
 
-#if [ "$key" = "" ] ; then
- # Use default initialization logic based on configuration in '/etc/inittab'.
-echo -e "Executing \\e[32m/sbin/init\\e[0m as PID 1."
-exec /sbin/init
-#else
-#  # Print second message on screen.
-#  cat /etc/msg/03_init_02.txt
+if [ "$key" = "" ] ; then
+  # Use default initialization logic based on configuration in '/etc/inittab'.
+  echo -e "Executing \\e[32m/sbin/init\\e[0m as PID 1."
+  exec /sbin/init
+else
+  # Print second message on screen.
+  cat /etc/msg/03_init_02.txt
 
   if [ "$PID1_SHELL" = "true" ] ; then
     # PID1_SHELL flag is set which means we have controlling terminal.
