@@ -63,6 +63,8 @@ DEFAULT_OVERLAY_DIR="/tmp/minimal/overlay"
 DEFAULT_UPPER_DIR="/tmp/minimal/rootfs"
 DEFAULT_WORK_DIR="/tmp/minimal/work"
 
+sleep 5
+
 echo "Searching available devices for overlay content."
 for DEVICE in /dev/* ; do
   DEV=$(echo "${DEVICE##*/}")
