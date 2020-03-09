@@ -17,6 +17,7 @@ About: Live Linux distributions like Ubuntu (1.9GB), Fedora(1.8GB), Arch(635MB) 
 Requirements: 64bit CPU, USB Thumbdrive
 
 Download [Rufus](https://rufus.ie/) (1.1MB)
+
 Download [checkra1n-linux.iso](https://github.com/downthecrop/checkra1n-linux/releases) (44MB)
 
 Write checkra1n-linux to USB using DD mode. Do not use ISO mode.
