@@ -4,11 +4,11 @@
 
 ## Portable minimal boot environment for use with checkra1n
 
-Linux Kernel: 5.4
+Linux Kernel: 5.4.3
 
 glibc: 2.3
 
-checkra1n version: 0.9.8 Beta
+checkra1n version: 0.9.8.2 Beta
 
 About: Live Linux distributions like Ubuntu (1.9GB), Fedora(1.8GB), Arch(635MB) and even Gentoo(347MB) are extremely bloated if you don't need to actually install an OS. This respin of Minimal Linux Live provides everything you need to run checkra1n for iOS/tvOS in under 50MB.
 
@@ -16,8 +16,9 @@ About: Live Linux distributions like Ubuntu (1.9GB), Fedora(1.8GB), Arch(635MB) 
 
 Requirements: 64bit CPU, USB Thumbdrive
 
-Download Rufus (1.1MB)
-Download checkra1n-linux.iso (64MB)
+Download [Rufus](https://rufus.ie/) (1.1MB)
+
+Download [checkra1n-linux.iso](https://github.com/downthecrop/checkra1n-linux/releases) (44MB)
 
 Write checkra1n-linux to USB using DD mode. Do not use ISO mode.
 
