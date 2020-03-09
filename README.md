@@ -1,5 +1,7 @@
 # checkra1n-linux Live USB Linux
 
+## [Download Release](https://github.com/downthecrop/checkra1n-linux/releases/tag/0.9.8)
+
 ## Portable minimal boot environment for use with checkra1n
 
 Linux Kernel: 5.4
@@ -15,7 +17,7 @@ About: Live Linux distributions like Ubuntu (1.9GB), Fedora(1.8GB), Arch(635MB) 
 Requirements: 64bit CPU, USB Thumbdrive
 
 Download Rufus (1.1MB)
-Download checkra1n-linux.iso (25MB)
+Download checkra1n-linux.iso (64MB)
 
 Write checkra1n-linux to USB using DD mode. Do not use ISO mode.
 
