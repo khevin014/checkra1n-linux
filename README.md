@@ -1,10 +1,8 @@
-# checkra1n-linux Live USB Linux
-
-## [Download Release](https://github.com/khevin014/checkra1n-linux/releases/tag/alpha)
+# checkra1n-linux minimal Live USB
 
 ## Portable minimal boot environment for use with checkra1n
 
-About: Live Linux distributions like Ubuntu (1.9GB), Fedora(1.8GB), Arch(635MB) and even Gentoo(347MB) are extremely bloated if you don't need to actually install an OS. This respin of Minimal Linux Live provides everything you need to run checkra1n for iOS/tvOS in under 50MB.
+About: Live Linux distributions like Ubuntu (1.9GB), Fedora(1.8GB), Arch(635MB) and even Gentoo(347MB) are extremely bloated if you don't need to actually install an OS. This respin of Minimal Linux Live provides everything you need to run checkra1n for iOS/tvOS in under 70MB.
 
 ## Instructions
 
